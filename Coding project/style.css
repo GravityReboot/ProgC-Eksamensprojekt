@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+input[type='text'] {
+  background-color: #1c1c1f;
+  color: white;
+  border: 3px solid #2f2e33;
+  outline: none;
+}
+
+input[type='text']:focus {
+  background-color: #2f2e33;
+  border: 3px solid #2f2e33;
+}
+
+input[type='color'] {
+  outline: none;
+  border: none;
+  background-color: #2f2e33;
+}
